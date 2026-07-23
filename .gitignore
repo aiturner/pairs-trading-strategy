@@ -1,8 +1,38 @@
+# Virtual environment
 venv_pairs/
 venv/
-__pycache__/
-*.pyc
+.env/
+
+# Data files
 data/
 *.csv
+*.parquet
+*.h5
+*.feather
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Outputs
+outputs/
+*.png
+*.jpg
+*.pdf
+*.html
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
-.ipynb_checkpoints/
+Thumbs.db
+
+# Logs
+*.log
